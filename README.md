@@ -24,7 +24,6 @@ This is a robust, scalable Selenium-based automation framework built to test the
 | **Cucumber**       | BDD-style test design with Gherkin syntax |
 | **TestNG**         | Test orchestration and suite execution    |
 | **WebDriverManager** | Automatic browser driver management    |
-| **Lombok**         | Boilerplate code reduction (⚠ JDK 24 conflict) |
 | **IntelliJ IDEA**  | Preferred IDE with plugin support         |
 
 ---
