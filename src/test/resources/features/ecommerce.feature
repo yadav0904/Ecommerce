@@ -23,12 +23,10 @@ Feature: E-commerce Shopping Flow
     And I add the following products to cart:
       | ZARA COAT 3        |
       | ADIDAS ORIGINAL    |
-#      | IPHONE 13 PRO      |
     And I navigate to cart page
     Then I should see all the following products in cart:
       | ZARA COAT 3        |
       | ADIDAS ORIGINAL    |
-#      | IPHONE 13 PRO      |
     And the total amount should be correct
     When I proceed to checkout
     And I fill in the mandatory information
