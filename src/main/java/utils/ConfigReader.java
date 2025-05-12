@@ -28,4 +28,8 @@ public class ConfigReader {
     public String getPassword() {
         return properties.getProperty("password");
     }
+
+    public boolean isHeadlessMode() {
+        return Boolean.parseBoolean(properties.getProperty("headless.mode", "false"));
+    }
 }
